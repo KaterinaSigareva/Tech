@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="{% static "css/styles.css" %}"/>
+	<title>ОБО МНЕ</title>
+</head>
+<body>
+	<h1>ОБО МНЕ</h1>
+	<img src= "{% static "image/kofe.jpg" %}" alt="kofe">
+	<h2>Sigareva Ekaterina Alekseevna</h2>
+	<h3>sigarevakatya@gmail.com</h3>	
+	<script src= "{% static "js/int.js" %}"></script>
+	<button onclick="ZipcodeHelp()">Мои интересы</button>
+	<p><a href='http://127.0.0.1:8000/list/'>Вывести список</p>
+</body>
+</html>	
